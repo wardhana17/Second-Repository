@@ -1,86 +1,69 @@
-/* Style Default */
 body {
-    font-family: 'Slabo 27px', serif;
-    background: #F9BF3B;
-  }
-  
-  h1 {
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    padding-bottom: 10px;
-  }
-  
-  .separator {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-  }
-  
-  /* Style Untuk Soal 1, 2, dan 3. Gunakan Dengan Sesuai! */
-  
-  .box-100 {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin: 20px;
-    padding: 20px;
-    font-size: 15pt;
+    background-color: whitesmoke;
+}
+
+.grid {
+    width: 600px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid red;
+    box-shadow: 10px 15px 5px black;
+}
+
+.grid h1 {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 60px;
     text-align: center;
-  }
-  
-  .box-200 {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin: 20px;
-    padding: 20px;
-    font-size: 15pt;
+    color: black;
+    padding: 2px 0px;
+    border-radius: 50px;
+
+}
+
+#score {
+    color: black;
     text-align: center;
-  }
-  
-  #maroon-box {
-    color: #FFFFFF;
-    background: #96281B;
-  }
-  
-  #dark-blue-box {
-    color: #FFFFFF;
-    background: #4B77BE;
-  }
-  
-  #salem-box {
-    color: #FFFFFF;
-    background: #1E824C;
-  }
-  
-  .red-background {
-    color: #FFFFFF;
-    background: red;
-  }
-  
-  .blue-background {
-    color: #FFFFFF;
-    background: #446CB3;
-  }
-  
-  .green-background {
-    color: #FFFFFF;
-    background: #26A65B;
-  }
-  
-  .box-list div {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin: 20px;
-    padding: 20px;
-    font-size: 15pt;
-    text-align: center;
-    background: #353535;
-    color: #FFFFFF;
-  }
-  
-  #gold-box {
-    border-radius: 20px;
-    color: #353535;
-    background: #F9BF3B;
-  }
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+   background-color: lightgray;
+   width: 250px;
+   height: 50px;
+   font-size: 20px;
+   color: black;
+   border: 1px solid purple;
+   border-radius: 50px;
+   margin: 10px 40px 10px 0px;
+   padding: 10px 10px;
+}
+
+#progress{
+    color: black;
+    font-size: 20px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: darkred
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+outline: 0;
+}
+
+
